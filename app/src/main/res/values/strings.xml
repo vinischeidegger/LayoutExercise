@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">LayoutExercise</string>
-    <string name="Passport">Passport</string>
+    <string name="Passport"><u>Passport</u></string>
+    <string name="lblName">Name:</string>
+    <string name="lblSurname">Surname:</string>
+    <string name="lblNationality">Nationality&#8230;</string>
+    <string name="edtSurname">Surname</string>
+    <string name="edtNationality">Nationality</string>
+    <string name="ckbUeCitizen">UE Citizen</string>
+    <string name="btnAccept">Accept</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnApply">Apply</string>
 </resources>
