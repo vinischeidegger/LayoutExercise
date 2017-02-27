@@ -10,12 +10,12 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="5dp"
         android:layout_weight="0"
-        android:layout_height="150dp"
+        android:layout_height="130dp"
         android:background="@color/colorAccent">
 
         <LinearLayout
@@ -23,12 +23,12 @@
             android:layout_height="match_parent"
             android:padding="10dp">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:srcCompat="@android:color/white"
             android:id="@+id/imageView3"
-            android:layout_weight="0.3" />
+            android:layout_weight="0.3" ></LinearLayout>
 
         <ImageView
             android:layout_width="0dp"
@@ -57,6 +57,7 @@
         android:gravity="center|bottom"
         android:orientation="vertical" >
 
+
         <LinearLayout
             android:id="@+id/button2"
             android:background="@color/colorAccent"
@@ -66,7 +67,8 @@
             android:layout_height="0dip"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:layout_gravity="center|bottom">
+            android:layout_gravity="center|bottom"
+            android:gravity="center">
 
             <TextView
                 android:text="@string/Passport"
@@ -75,8 +77,7 @@
                 android:id="@+id/textView"
                 android:gravity="center"
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
-                android:layout_marginTop="15dp"/>
+                android:textSize="24sp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
